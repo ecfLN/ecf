@@ -1,5 +1,5 @@
 <?php
-require_once './php/test_session_log.php';
+require_once './ECF/securite_et_tests/test_session_log.php';
 
 ?>
 <!DOCTYPE html>

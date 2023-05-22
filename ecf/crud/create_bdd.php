@@ -19,7 +19,7 @@ if(!$conn){
 
 // creation de la BDD
 //a changer le "nombdd" par votre NOM DE BDD
-$sql = "create DATABASE if not exists nombdd "; 
+$sql = "create DATABASE if not exists sitedelivre "; 
 // on verifie si la BDD a bien etai cree
 if(mysqli_query($conn,$sql)){
     echo " la BDD a été crée";

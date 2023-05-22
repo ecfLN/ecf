@@ -2,7 +2,7 @@
 session_start();
 // connexion 
 require_once './connect.php';
-require_once '../security.php';
+require_once '.././securite_et_tests/security.php';
 
 //update
 // en vrai la parti connexion ou fait pas trop de update dessus mais vous aurai une trame  ^^

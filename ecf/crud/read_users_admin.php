@@ -1,6 +1,6 @@
 <?php
 // connexion  
-require_once '.././php/CRUD/connect.php';
+require_once '.././ecf/connect.php';
 
 // on va faire pour la table users 
 

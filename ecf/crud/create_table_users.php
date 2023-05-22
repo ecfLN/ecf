@@ -12,11 +12,6 @@ $sql =" create table if not exists users(
     mdp text not null,
     ROLE varchar(15) not null,
     cgu varchar(15) not null
-    
-    CHANGER SI BESOIN SINON EFFACER LA LIGNE OU RAJOUTER ICI SI BESOIN SINON EFFACER LA LIGNE 
-    CHANGER SI BESOIN SINON EFFACER LA LIGNE OU RAJOUTER ICI SI BESOIN SINON EFFACER LA LIGNE 
-    CHANGER SI BESOIN SINON EFFACER LA LIGNE OU RAJOUTER ICI SI BESOIN SINON EFFACER LA LIGNE 
-    
     )";
 
 // si la requete n'est pas valide 

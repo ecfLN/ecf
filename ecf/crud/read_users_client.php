@@ -1,11 +1,11 @@
 <?php
 // connexion  
-require_once './php/CRUD/connect.php';
+require_once './ecf/connect.php';
 
 // on va faire pour la table users 
 
 // on fait cassiment tout le temps un select * c'est rare de faire autre chose pour "voir la table"
-$sql= " SELECT * FROM users WHERE id='$id'";
+$sql= ' SELECT * FROM users WHERE id="$id"';
 // c est des valeur defini par les CODEURS $sql $res etc...
 $res = mysqli_query($conn,$sql);
 

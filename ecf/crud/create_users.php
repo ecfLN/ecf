@@ -3,7 +3,7 @@ session_start();
 // connexion
 require_once './connect.php';
 // function de securité
-require_once '../security.php';
+require_once '.././securite_et_tests/security.php';
 
 //evidament un CRUD pour UNE TABLE pour faire simple !! 
 

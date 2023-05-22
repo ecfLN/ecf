@@ -1,7 +1,7 @@
 <?php
-require_once './php/test_session_log.php';
+require_once './ECF/securite_et_tests/test_session_log.php';
 // fichier de sécurité 
-require_once './php/security.php';
+require_once './ECF/securite_et_tests/security.php';
 
 if($connect=="yes"){
     header('location:./index.php');
